@@ -3,7 +3,7 @@ name: Continues Integration and Deployment (Faisal)
 on:
   push:
     branches:
-      - master
+      - main
 env:
   DOTNET_VERSION: '6.0.x'
 jobs:
